@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="RatingBarViewTagId" type="id"/>
+
+    <declare-styleable name="RatingBarView">
+        <attr name="totalCount" format="integer"/>
+        <attr name="selectedCount" format="integer"/>
+        <attr name="selectedDrawable" format="reference"/>
+        <attr name="normalDrawable" format="reference"/>
+        <attr name="clickable" format="boolean"/>
+        <attr name="childMargin" format="dimension"/>
+        <attr name="childPadding" format="dimension"/>
+        <attr name="childDimension" format="dimension"/>
+    </declare-styleable>
+
+</resources>
