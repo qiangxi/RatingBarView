@@ -6,11 +6,11 @@
 ### 使用方式:
 查看最新版本点击[这里]()
 ##### gradle:
-```groove
+```groovy
 compile 'com.qiangxi.ratingbarview:ratingbarview:1.0.2'
 ```
 ##### maven:
-```xml
+```maven
 <dependency>
   <groupId>com.qiangxi.ratingbarview</groupId>
   <artifactId>ratingbarview</artifactId>
