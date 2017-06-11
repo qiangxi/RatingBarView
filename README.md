@@ -4,7 +4,7 @@
 ### 效果图如下:
 ![效果图](http://a2.qpic.cn/psb?/V139PLsQ3siJoP/374s9j7S7uPjfzK160VKDrDWxSh2NKFOMvuXca1aAqA!/b/dHUAAAAAAAAA&ek=1&kp=1&pt=0&bo=nQGqAgAAAAADFwY!&tm=1497006000&sce=60-4-3&rf=viewer_4)
 ### 使用方式:
-查看最新版本点击[这里]()
+查看最新版本点击[这里](https://jcenter.bintray.com/com/qiangxi/ratingbarview/ratingbarview/)
 ##### gradle:
 ```groovy
 compile 'com.qiangxi.ratingbarview:ratingbarview:1.0.2'
