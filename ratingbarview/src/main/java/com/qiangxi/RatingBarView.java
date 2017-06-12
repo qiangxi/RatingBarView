@@ -121,8 +121,9 @@ public class RatingBarView extends LinearLayout implements View.OnClickListener 
     public void onClick(View v) {
         if (mClickable) {
             int position = (int) v.getTag(DEFAULT_TAG_ID);
+            mSelectedCount = position + 1;
             if (mListener != null) {
-                mListener.onRatingBarClick(this, v, position + 1);
+                mListener.onRatingBarClick(this, v, mSelectedCount);
             }
             updateLayoutIfNeeded(position);
         }
@@ -224,6 +225,56 @@ public class RatingBarView extends LinearLayout implements View.OnClickListener 
     @Override
     public void setClickable(boolean clickable) {
         mClickable = clickable;
+    }
+
+    /**
+     * 获取选中的子view数量
+     */
+    public int getSelectedCount() {
+        return mSelectedCount;
+    }
+
+    /**
+     * 获取默认图标资源id
+     */
+    public int getNormalIconResId() {
+        return mNormalIconResId;
+    }
+
+    /**
+     * 获取选中的图标资源id
+     */
+    public int getSelectedIconResId() {
+        return mSelectedIconResId;
+    }
+
+    /**
+     * 获取子view的内部padding
+     */
+    public int getChildPadding() {
+        return childPadding;
+    }
+
+    /**
+     * 获取子view之间的margin
+     */
+    public int getChildMargin() {
+        return childMargin;
+    }
+
+    /**
+     * 获取子view的尺寸大小
+     */
+    public int getChildDimension() {
+        return mChildDimension;
+    }
+
+    /**
+     * RatingBarView是否可点击
+     */
+    @Override
+    public boolean isClickable() {
+        return mClickable;
     }
 
     /**
