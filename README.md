@@ -1,20 +1,22 @@
 # RatingBarView
 继承LinearLayout自定义的RatingBarView,提供可高度自定义的属性,简单易用
-
+### 更新日志2017-06-12
+- 修复当点击修改ratingBarView的选中数量时,字段mSelectedCount不变的bug
+- 发布1.0.3版本
 ### 效果图如下:
 ![效果图](http://a2.qpic.cn/psb?/V139PLsQ3siJoP/374s9j7S7uPjfzK160VKDrDWxSh2NKFOMvuXca1aAqA!/b/dHUAAAAAAAAA&ek=1&kp=1&pt=0&bo=nQGqAgAAAAADFwY!&tm=1497006000&sce=60-4-3&rf=viewer_4)
 ### 使用方式:
 查看最新版本点击[这里](https://jcenter.bintray.com/com/qiangxi/ratingbarview/ratingbarview/)
 ##### gradle:
 ```groovy
-compile 'com.qiangxi.ratingbarview:ratingbarview:1.0.2'
+compile 'com.qiangxi.ratingbarview:ratingbarview:1.0.3'
 ```
 ##### maven:
 ```maven
 <dependency>
   <groupId>com.qiangxi.ratingbarview</groupId>
   <artifactId>ratingbarview</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.3</version>
   <type>pom</type>
 </dependency>
 ```
